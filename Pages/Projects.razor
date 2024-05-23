@@ -1,0 +1,45 @@
+﻿@page "/projects"
+
+<div class="project-text-column" style="font-size: large;">
+    <h3>Personal Projects</h3> <br />
+
+    <h6 style="font-weight: bold;">2020</h6>
+    Used R to process, analyze, and visualize data from various geophysical instruments. Visualization scripts developed for
+    magnetic susceptibility vs. temperature (pages 34, 35) were used by many laboratory users to streamline workflow: <br />
+    <button class="btn btn-primary" @onclick="ExpandProject">@projectButton</button> <br />
+    @if (isProjectExpanded)
+    {
+        <iframe src="Images/Marquardt_MSci_Thesis_Surtsey.pdf#page=41" class="iframe-styling"></iframe>
+    }
+    <br />
+
+    <h6 style="font-weight: bold;">2021</h6>
+    Used R to build a program that processes and visualizes investment results and serves as a post-trade analysis tool: <br />
+    <a href="https://marquardt1195.github.io" class="btn btn-primary" role="button">Visit Github Repo</a>
+    <br /><br />
+
+    <h6 style="font-weight: bold;">2023</h6>
+    Used R to process and analyze investment results downloaded directly from the brokerage firm, Fidelity Investments<sup>&reg;</sup>: <br />
+    <a href="https://github.com/marquardt1195/TradingAnalytics-BrokerDirect" class="btn btn-primary" role="button">Visit Github Repo</a>
+    <br /><br />
+
+    <h6 style="font-weight: bold;">2023/24</h6>
+    Used C# to build a Blazor Server application with SQL Server to log, process, and visualize investment results:<br />
+    <a href="https://marquardt1195.github.io" class="btn btn-primary" role="button">Visit Website</a>
+</div>
+
+
+
+@code {
+    public bool isProjectExpanded = false;
+
+    public string projectButton = "Expand Project";
+
+
+    public void ExpandProject()
+    {
+        isProjectExpanded = !isProjectExpanded;
+        projectButton = isProjectExpanded ? "Close Project" : "Expand Project";
+    }
+}
+
