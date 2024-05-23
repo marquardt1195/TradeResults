@@ -1029,3 +1029,4 @@ C:\Users\SUPERUSER\source\repos\PersonalWebsite_WASM\obj\Debug\net8.0\PersonalWe
 C:\Users\SUPERUSER\source\repos\PersonalWebsite_WASM\obj\Debug\net8.0\refint\PersonalWebsite_WASM.dll
 C:\Users\SUPERUSER\source\repos\PersonalWebsite_WASM\obj\Debug\net8.0\PersonalWebsite_WASM.pdb
 C:\Users\SUPERUSER\source\repos\PersonalWebsite_WASM\obj\Debug\net8.0\ref\PersonalWebsite_WASM.dll
+C:\Users\SUPERUSER\source\repos\PersonalWebsite_WASM\obj\Debug\net8.0\PersonalWebsite_WASM.sourcelink.json

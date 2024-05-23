@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonalWebsite_WASM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52ee1e9d24567ee3437cc02952e0a6102eae76e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonalWebsite_WASM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonalWebsite_WASM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
